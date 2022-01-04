@@ -4,7 +4,7 @@ Web application wich connect to Firebase(Cloud Firestore). App helps to control 
 # Functionality video
 inProgress
 
-# Used libraries
+# Used framework
  - Bootstrap 5
 
 # Made by
