@@ -1,3 +1,51 @@
+:root {
+    --color1: #222b45;
+    --color2: white;
+    --color3: #d8dfea;
+}
+
+.nav_style {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.btn-outline-dark:hover {
+    background-color: var(--color1);
+}
+
+button:hover {
+    background-color: white;
+}
+
 section {
     padding: 100px 0;
+}
+
+.form-back {
+    background-color: var(--color3);
+    padding: 25px 25px;
+    color: var(--color1);
+}
+
+header {
+    padding-top: 240px;
+    padding-bottom: 300px;
+    background-image: url(../img/headerback.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.table_head_style {
+    background-color: var(--color1);
+    color: var(--color2);
+}
+
+.table_body_style {
+    background-color: var(--color3);
+}
+
+footer {
+    background-color: var(--color1);
+    padding: 20px 0;
+    color: var(--color2);
 }

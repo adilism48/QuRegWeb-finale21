@@ -26,12 +26,12 @@ const addBtn = document.getElementById('regBtn');
 
 const renderUser = docs => {
     const tr = `
-         <tr data-id = '${docs.id}'>
-             <td>${docs.data().cardid}</td>
-             <td>${docs.data().firstname}</td>
-             <td>${docs.data().surname}</td>
+         <tr data-id = '${docs.id}' class="table_body_style">
+             <td style="color: var(--color1)">${docs.data().cardid}</td>
+             <td style="color: var(--color1)">${docs.data().firstname}</td>
+             <td style="color: var(--color1)">${docs.data().surname}</td>
              <td>
-                 <button class="btn btn-delete">Delete</button>
+                 <button class="btn btn-outline-dark btn-delete">Delete</button>
              </td>
          </tr>`;
     tableUsers.insertAdjacentHTML('beforeend', tr);

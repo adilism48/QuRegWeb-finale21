@@ -10,59 +10,62 @@
     <title>QuRegWeb</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <nav class="navbar fixed-static-top navbar-expand-lg nav_style">
         <div class="container">
-            <div class="navbar-brand" href="#">QuRegWeb</div>
+            <div class="navbar-brand" href="#">
+                <img src="/img/logo.png" width="40" height="40" class="img-fluid d-inline-block align-text-center" alt="logo" >
+                QuRegWeb
+            </div>
         </div>
     </nav>
 
-    <section>
+    <header>
         <div class="container">
             <div class="row">
-                <div class="col-12">
-                    <h1 class="text-center mb-5">QuRegWeb</h1>
-                    <div class="row justify-content-center">
-                        <div class="col-6">
-                            <form class="row g-3">
-                                <div class="col-md-6">
-                                    <label for="inputName" class="form-label">Firstname</label>
-                                    <input type="text" class="form-control" id="inputName" name="inputName">
-                                </div>
-                                <div class="col-md-6">
-                                    <label for="inputSurname" class="form-label">Surname</label>
-                                    <input type="text" class="form-control" id="inputSurname" name="inputSurname">
-                                </div>
-                                <div class="col-12">
-                                    <label for="inputCardID" class="form-label">CardID</label>
-                                    <input type="text" class="form-control" id="inputCardID" name="inputCardID">
-                                </div>
-                                <div class="col-6">
-                                    <button type="submit" class="btn waves-effect waves-light" id="regBtn" name="regBtn">Register</button>
-                                </div>
-                            </form>
+                <div class="col-xl-6 col-sm-12 align-self-center form-back">
+                    <form class="row g-3">
+                        <h1 class="text-center">QuRegWeb</h1>
+                        <div class="col-md-6">
+                            <label for="inputName" class="form-label">Firstname</label>
+                            <input type="text" class="form-control" id="inputName" name="inputName">
                         </div>
-                    </div>
+                        <div class="col-md-6">
+                            <label for="inputSurname" class="form-label">Surname</label>
+                            <input type="text" class="form-control" id="inputSurname" name="inputSurname">
+                        </div>
+                        <div class="col-12">
+                            <label for="inputCardID" class="form-label">CardID</label>
+                            <input type="text" class="form-control" id="inputCardID" name="inputCardID">
+                        </div>
+                        <div class="row justify-content-center row g-3">
+                            <div class="col-2">
+                                <button type="submit" class="btn btn-outline-dark" id="regBtn" name="regBtn">Register</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
         </div>
-    </section>
+    </header>
 
     <section>
         <div class="container">
-            <table class="table">
-                <thead>
+            <table class="table table-striped">
+                <thead class="table_head_style">
                     <tr>
                         <th scope="col">CardID</th>
                         <th scope="col">Firstname</th>
                         <th scope="col">Surname</th>
+                        <th scope="col">Action</th>
                     </tr>
                 </thead>
-                <tbody>
-
-                </tbody>
             </table>
         </div>
     </section>
+
+    <footer>
+        <h6 class="text-center">QuRegWeb 2021</h6>
+    </footer>
     <script type="module" src="js/script.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>
