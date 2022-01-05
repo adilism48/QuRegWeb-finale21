@@ -1,4 +1,4 @@
-# QuRegWeb (final-21) in progress
+# QuRegWeb (final-21)
 Web application wich connect to Firebase(Cloud Firestore). App helps to control the online queue to offices in our university. Main functionality adding to Firebase, delete from Firebase and show data from Firebase.
 
 ![Menu Illustration](https://github.com/adilism48/QuRegWeb-finale21/blob/main/img/sc.png)
