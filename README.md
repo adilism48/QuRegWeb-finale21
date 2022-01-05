@@ -3,6 +3,9 @@ Web application wich connect to Firebase(Cloud Firestore). App helps to control 
 
 ![Menu Illustration](https://github.com/adilism48/QuRegWeb-finale21/blob/main/img/sc.png)
 
+# GitHub Pages link
+https://adilism48.github.io/QuRegWeb-finale21/
+
 # Functionality video
 https://youtu.be/UOKz3WnHAYc
 
